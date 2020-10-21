@@ -1,0 +1,174 @@
+{
+  "Headline": {
+    "EffectiveDate": "2020-10-23T20:00:00+02:00",
+    "EffectiveEpochDate": 1603476000,
+    "Severity": 2,
+    "Text": "Przewidywana deszczowa pogoda od: piątek wieczór do: sobota późna noc",
+    "Category": "rain",
+    "EndDate": "2020-10-25T08:00:00+02:00",
+    "EndEpochDate": 1603605600,
+    "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/extended-weather-forecast/353745_pc?unit=c",
+    "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?unit=c"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2020-10-19T07:00:00+02:00",
+      "EpochDate": 1603083600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 3.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 10,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Przejściowe zachmurzenia",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Bezchmurnie",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=1&unit=c",
+      "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=1&unit=c"
+    },
+    {
+      "Date": "2020-10-20T07:00:00+02:00",
+      "EpochDate": 1603170000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 6.6,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 11.2,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Przejściowe zachmurzenia",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Zachmurzenie duże",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=2&unit=c",
+      "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=2&unit=c"
+    },
+    {
+      "Date": "2020-10-21T07:00:00+02:00",
+      "EpochDate": 1603256400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 7.8,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 13.7,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 7,
+        "IconPhrase": "Pochmurno",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 36,
+        "IconPhrase": "Przejściowe zachmurzenia",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=3&unit=c",
+      "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=3&unit=c"
+    },
+    {
+      "Date": "2020-10-22T07:00:00+02:00",
+      "EpochDate": 1603342800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 10.5,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 17.5,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 4,
+        "IconPhrase": "Przejściowe zachmurzenia",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Zachmurzenie umiarkowane",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=4&unit=c",
+      "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=4&unit=c"
+    },
+    {
+      "Date": "2020-10-23T07:00:00+02:00",
+      "EpochDate": 1603429200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 10.2,
+          "Unit": "C",
+          "UnitType": 17
+        },
+        "Maximum": {
+          "Value": 15.6,
+          "Unit": "C",
+          "UnitType": 17
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Zachmurzenie duże",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 18,
+        "IconPhrase": "Deszcz",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://m.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=5&unit=c",
+      "Link": "http://www.accuweather.com/pl/pl/lublin/20-400/daily-weather-forecast/353745_pc?day=5&unit=c"
+    }
+  ]
+}

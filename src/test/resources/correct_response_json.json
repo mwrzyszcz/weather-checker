@@ -1,0 +1,36 @@
+{
+  "postalCode": "20-400",
+  "voivodeship": "Lubelskie",
+  "forecastInformationDtos": [
+    {
+      "date": "2020-10-19",
+      "dayOfWeek": "MONDAY",
+      "minTemp": 3.2,
+      "maxTemp": 10.0
+    },
+    {
+      "date": "2020-10-20",
+      "dayOfWeek": "TUESDAY",
+      "minTemp": 6.6,
+      "maxTemp": 11.2
+    },
+    {
+      "date": "2020-10-21",
+      "dayOfWeek": "WEDNESDAY",
+      "minTemp": 7.8,
+      "maxTemp": 13.7
+    },
+    {
+      "date": "2020-10-22",
+      "dayOfWeek": "THURSDAY",
+      "minTemp": 10.5,
+      "maxTemp": 17.5
+    },
+    {
+      "date": "2020-10-23",
+      "dayOfWeek": "FRIDAY",
+      "minTemp": 10.2,
+      "maxTemp": 15.6
+    }
+  ]
+}

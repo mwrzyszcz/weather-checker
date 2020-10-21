@@ -1,0 +1,9 @@
+{
+  "TimeZone": {
+    "Code": "CEST",
+    "Name": "Europe/Warsaw",
+    "GmtOffset": 2,
+    "IsDaylightSaving": true,
+    "NextOffsetChange": "2020-10-25T01:00:00Z"
+  }
+}
