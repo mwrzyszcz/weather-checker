@@ -4,7 +4,7 @@
 
 ### How to use
 
-1. Clone repository
+1. Clone repository `$ git clone https://github.com/mwrzyszcz/weather-checker.git`
 2. Run application
     * OpenJDK 11
     * Maven 3+
