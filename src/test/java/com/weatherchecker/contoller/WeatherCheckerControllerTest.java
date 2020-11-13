@@ -50,10 +50,7 @@ class WeatherCheckerControllerTest {
   @Test
   public void shouldReturnCorrectResponse() throws Exception {
     var correctPostalCode = "20-400";
-    /*    Mockito.when(weatherCheckerService.process(correctPostalCode))
-    .thenReturn(
-        new ForecastResponseDto(
-            correctPostalCode, "Lubelskie", CORRECT_FORECAST_INFORMATION_DTOS));*/
+
     Mockito.when(restTemplate.getForObject(any(), eq(String.class)))
         .thenReturn(correctLocationJson);
 

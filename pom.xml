@@ -16,10 +16,16 @@
   <description>Application for checking weather via accuweather</description>
 
   <properties>
+    <!--JDK-->
     <java.version>11</java.version>
+
+    <!--depenencies-->
     <spring-boot-starter-web.version>2.3.4.RELEASE</spring-boot-starter-web.version>
-    <gson.version>2.8.6</gson.version>
     <spring-boot-starter-test.version>2.3.4.RELEASE</spring-boot-starter-test.version>
+    <spring-boot-starter-log4j2.version>2.3.4.RELEASE</spring-boot-starter-log4j2.version>
+    <gson.version>2.8.6</gson.version>
+
+    <!--plugins-->
     <spring-boot-maven-plugin.version>2.1.6.RELEASE</spring-boot-maven-plugin.version>
   </properties>
 
@@ -28,6 +34,18 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
       <version>${spring-boot-starter-web.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-logging</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-log4j2</artifactId>
+      <version>${spring-boot-starter-log4j2.version}</version>
     </dependency>
 
     <dependency>
@@ -35,7 +53,6 @@
       <artifactId>gson</artifactId>
       <version>${gson.version}</version>
     </dependency>
-
 
     <dependency>
       <groupId>org.springframework.boot</groupId>

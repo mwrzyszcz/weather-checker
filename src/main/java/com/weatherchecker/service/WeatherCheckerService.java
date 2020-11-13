@@ -32,10 +32,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 @Service
 public class WeatherCheckerService {
 
-  Logger logger = LoggerFactory.getLogger(WeatherCheckerService.class);
-
   private static final String PL_POSTAL_CODE_REGEX = "\\d{2}-\\d{3}";
   private static final Pattern PATTERN = Pattern.compile(PL_POSTAL_CODE_REGEX);
+  private final Logger logger = LoggerFactory.getLogger(WeatherCheckerService.class);
   private final RestTemplate restTemplate;
 
   @Value("${url.5.day.forecast}")
